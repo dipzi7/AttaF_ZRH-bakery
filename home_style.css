@@ -371,9 +371,9 @@ boxlow::nth-child(1); {animation-delay: 2.8s;}
 #list{
   opacity: 0;
   transform: translateY(-20px);
-  animation: boxlow 0.8s ease forwards;
+  animation: boxlow 1.2s ease forwards;
 }
-boxlow::nth-child(1); {animation-delay: 0.8s;}
+boxlow::nth-child(1); {animation-delay: 1.2s;}
 
 @keyframes boxlow{
   from{
@@ -404,6 +404,7 @@ boxlow::nth-child(1); {animation-delay: 0.7s;}
   }
 
 }
+
 
 
 

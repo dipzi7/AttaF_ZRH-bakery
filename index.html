@@ -1,80 +1,102 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="id">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width initial scale 1.0">
-    <title>AttaF_ZRH Bakery</title>
-    <!--Fonts google-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts Family-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <!--Fonts google-->
-    <!--Feather Icon-->
-    <script src="https://unpkg.com/feather-icons"></script>
-    <!--My Style-->
-    <link rel="stylesheet" href="bakery-style.css">
-  </head>
-  
-  <!--NavBar Start-->
-  <body>
-    <nav class="navbar">
-      <div class="logo">
-      <img src="../image/logo.jpg">
-      <a href="#" class="nav-logo">AttaF_ZRH<span>Bakery</span></a>
-      </div>
-      
-      <div class="navbar-nav">
-        <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#contact">contact</a>
-      </div>
-      
-      <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopcart"><i data-feather="shopping-cart"></i></a>
-        <a href="#" id="nav-menu"><i data-feather="menu"></i></a>
-      </div>
-    </nav>
-    <!--Navbar End-->
-    
-    <!--Hero Section start-->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Rasa rumahan, <span>selezat buatan ibu</span></h1>
-        <p>Lapar? Saatnya coba kue selezat buatan ibu Pia lembut, roti fresh, donat manis – semua bikin nagih! Pesan sekarang sebelum kehabisan</p>
-        <a href="#" class="cta">Beli Sekarang</a>
-      </main>
-    </section>
-    <!--Hero Section End-->
-    <!--About Section start-->
-    <section id="about" class="about">
-      <h2><span>Tentang</span>Kami</h2>
-    
-    <div class="row">
-      <div class="about-img">
-        <img src="../updated/image/tentang-kami.jpg" alt="Tentang Kami">
-      </div>
-        <div class="content">
-          <h3>Kenapa Memilih Kue Kami?</h3>
-        <p>Setiap gigitan membawa rasa hangat yang akrab, seperti saat menikmati sajian buatan ibu di rumah. Dari kue pia dengan isian manis yang lembut, roti empuk yang selalu segar, hingga donat yang manis dan menggoda—semuanya dibuat dengan penuh cinta dan cita rasa khas rumahan</p>
-        <p>Kami percaya, kue terbaik bukan hanya soal bahan pilihan, tetapi juga sentuhan kasih yang membuatnya istimewa. Karena itu, setiap produk kami hadir dengan kualitas rasa selezat buatan ibu, menghadirkan kenangan manis di setiap suapan.</p>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>Attaz Store</title>
+    <link rel="stylesheet" href="home_style.css"
+</head>
+<body>
+    <div class="header">
+        <h1 class="nm-store">AttaF_ZRH Bakery</h1>
+        <div id="topbar">
+            <lu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </lu>
         </div>
     </div>
-    </section>
-    <!--about section end-->
-    <!--Menu Section Start-->
-      <div class="menu-content">
-        <div class="box1"
-          <img src="../image/pia-kacangijo.jpg">
-          <h6>Pia Kacang Ijo</h6>
+    <div class="list-menu">
+        <img src="../attaz_store/image/logo.jpg" id="logo" alt="logo">
       </div>
-    <!--Menu Section End-->
-    <!--Feather Icon-->
-    <script>
-      feather.replace();
-    </script>
-    <!--My JavaScript-->
-    <script src="../updated/Js/script-navbar.js" defer></script>
-  </body>
+        <div class="desk" id="desk">
+          <h4>Description :</h4>
+        <p>Setiap gigitan membawa rasa hangat yang akrab, seperti saat menikmati sajian buatan ibu di rumah. Dari kue pia dengan isian manis yang lembut, roti empuk yang selalu segar, hingga donat yang manis dan menggoda—semuanya dibuat dengan penuh cinta dan cita rasa khas rumahan.</p>
+        <p>Kami percaya, kue terbaik bukan hanya soal bahan pilihan, tetapi juga sentuhan kasih yang membuatnya istimewa. Karena itu, setiap produk kami hadir dengan kualitas rasa selezat buatan ibu, menghadirkan kenangan manis di setiap suapan.</p>
+        </div>
+        <h2 class="list" id="list">==List Menu==</h2>
+        
+        <div class="card-menu">
+          <div class="card">
+            <img src="../attaz_store/image/pia-kacangijo.jpg">
+            <h2>Pia kacang Ijo</h2>
+            <b>Rp30.000</b>|<b>Isi 12</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="../attaz_store/image/pia-coklat.jpg">
+            <h2>Pia Coklat</h2>
+            <b>Rp35.000</b>|<b>Isi 12</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="../attaz_store/image/roti-coklat.jpg">
+            <h2>Roti Coklat</h2>
+            <b>Rp5.000/1</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="../attaz_store/image/donat.jpg">
+            <h2>Donat</h2>
+            <b>Rp3.000/1</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="../attaz_store/image/roti-pisang-keju(segitiga.jpg">
+            <h2>Roti Pisang Keju</h2>
+            <b>Rp8.000/1</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="../attaz_store/image/roti-pisang-coklat.jpg">
+            <h2>Roti Pisang Coklat</h2>
+            <b>Rp7.000/1</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="../attaz_store/image/roti-keju.jpg">
+            <h2>Roti Keju</h2>
+            <b>Rp7.000/1</b>
+          <div class="btn">
+            <a href="#" class="cta">Pesan Sekarang</a>
+            </div>
+          </div>
+        </div>
+        
+      <div class="sidebar">
+        <p>Dipzi @copyright2025 By Dipzi7, Ivan</p>
+      </div>
+</body>
 </html>
